@@ -4,7 +4,7 @@
 body {
     color: #777777;
     font-weight: 500;
-    background: #ffffff;
+    background: #f8f9fa;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -55,7 +55,7 @@ a:focus {
 }
 
 .container-fluid {
-    max-width: 1366px;
+    max-width: 100%;
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
@@ -251,7 +251,7 @@ a:focus {
 .navbar .navbar-brand {
     margin: 0;
     color: #ffffff;
-    font-size: 45px;
+    font-size: 30px;
     line-height: 0px;
     font-weight: 700;
     letter-spacing: 5px;
@@ -1065,7 +1065,7 @@ a:focus {
 
 .team .team-item {
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .team .team-img {
@@ -1131,7 +1131,7 @@ a:focus {
 }
 
 .team .team-item:hover .team-text {
-    height: 160px;
+     height: 100px; /*160px */
 }
 
 
